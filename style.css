@@ -1,0 +1,103 @@
+body {
+    width: 1000px;
+    font-family: 'メイリオ',
+    'Hiragino Kaku Gothic Pro',
+    sans-serif;
+    background-color: #a38570;
+    margin: auto;
+    color: #ffffff;
+}
+
+header{
+    width: 980px;
+    /*height: 100px;*/
+    /*border: solid 1px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 25px;
+    background-color: #8e725e
+}
+
+.contents {
+    margin-top: 50px;
+}
+
+nav li {
+    display: inline;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.logo {
+    width:200px;
+    /*height: 50px;*/
+    /*border: solid 1px;*/
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo_theme {
+    width:800px;
+    height: 50px;
+    border: solid 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.title_img {
+    width: 530px;
+    margin-top: 16px;
+    margin-left: 9px;
+    border-radius: 25px;
+    
+}
+
+.basic_info {
+   word-break:break-all;
+   width: 422px;
+   height: 395.292px;
+   border: solid 1px;
+   float: right;
+   margin-right: 9px;
+   border-radius: 25px;
+   padding: 1px;
+   background-color: #8e725e;
+}
+
+.articles {
+    margin-top: 50px;
+}
+
+.articlelist {
+    padding: 0px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.articles li {
+    
+    display: table-cell;
+    border: solid 1px;
+    /*text-align: justify;*/
+    width: 350px;
+    height: 333px;
+    background-color: #8e725e;
+    margin-right: 10px;
+    margin-top:16px;
+    border-radius: 25px;
+}
+
+.social {
+    text-align: center
+ 
+}
+
+.logo_scl {
+    width:64px;
+    height: 64px;
+}
