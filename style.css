@@ -67,6 +67,19 @@ nav li {
    background-color: #8e725e;
 }
 
+.about-info {
+    word-break:break-all;
+   width: 422px;
+   height: 353px;
+   border: solid 1px;
+   float: right;
+   margin-right: 9px;
+   border-radius: 25px;
+   padding: 1px;
+   background-color: #8e725e;
+}
+
+
 .articles {
     margin-top: 50px;
 }
@@ -100,4 +113,13 @@ footer {
 .logo_scl {
     width:64px;
     height: 64px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.about-img {
+    float:left;
+    width: 600px;
 }
