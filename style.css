@@ -1,11 +1,12 @@
 body {
     width: 1000px;
-    font-family: 'メイリオ',
-    'Hiragino Kaku Gothic Pro',
-    sans-serif;
+    /*font-family: 'メイリオ',*/
+    /*'Hiragino Kaku Gothic Pro',*/
+    /*sans-serif;*/
+    font-family: "HG行書体", Times, serif;
     background-color: #a38570;
     margin: auto;
-    color: #ffffff;
+    color: #edf1f2;
 }
 
 header{
@@ -48,7 +49,7 @@ nav li {
 }
 
 .title_img {
-    width: 530px;
+    width: 600px;
     margin-top: 16px;
     margin-left: 9px;
     border-radius: 25px;
@@ -56,27 +57,30 @@ nav li {
 }
 
 .basic_info {
-   word-break:break-all;
-   width: 422px;
-   height: 395.292px;
-   border: solid 1px;
-   float: right;
-   margin-right: 9px;
-   border-radius: 25px;
-   padding: 1px;
-   background-color: #8e725e;
+    /*position: absolute;*/
+    /*top:0px; */
+    word-break:break-all;
+    width: 350px;
+    height: 337px;
+    border: solid 1px;
+    float: right;
+    margin-right: 9px;
+    border-radius: 25px;
+    padding: 1px;
+    background-color: #8e725e;
+    font-size: medium;
 }
 
 .about-info {
     word-break:break-all;
-   width: 422px;
-   height: 353px;
-   border: solid 1px;
-   float: right;
-   margin-right: 9px;
-   border-radius: 25px;
-   padding: 1px;
-   background-color: #8e725e;
+    width: 422px;
+    height: 353px;
+    border: solid 1px;
+    float: right;
+    margin-right: 9px;
+    border-radius: 25px;
+    padding: 1px;
+    background-color: #8e725e;
 }
 
 
@@ -93,13 +97,11 @@ footer {
 }
 
 .articles li {
-    
-    display: table-cell;
-    border: solid 1px;
+    display: inline;
+    /*border: solid 1px;*/
     /*text-align: justify;*/
-    width: 350px;
-    height: 333px;
-    background-color: #8e725e;
+    
+    /*background-color: #8e725e;*/
     margin-right: 10px;
     margin-top:16px;
     border-radius: 25px;
@@ -122,4 +124,46 @@ h1 {
 .about-img {
     float:left;
     width: 600px;
+}
+
+.contact-banner {
+    width: 940px;
+    /*height: 100px;*/
+    /*border: solid 1px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color: #8e725e;
+    padding-bottom: 3px;
+}
+
+table{
+   border: 1px solid #8e725e;;
+   font-size: 28px;
+  
+
+}
+
+th {
+    background-color: #8e725e;
+   
+}
+th, td {
+   border: 1px solid #8e725e;
+   /*font-size: 22px;*/
+   padding: 10px;
+   
+}
+
+/*.article-img{*/
+/*    width: 330px;*/
+/*}*/
+.article-img {
+    margin-left:0px;
+    margin-right:0px;
+    
+    text-align: center;
+    width: 314px;
+    /*clip-path: circle(150px at center);*/
 }

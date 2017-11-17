@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <title>Top | Graduation</title>
     <link rel="stylesheet" href="style.css">
+    <!-- 1. Link to jQuery (1.8 or later), -->
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> <!-- 33 KB -->
+
+        <!-- fotorama.css & fotorama.js. -->
+        <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
 </head>
 
 <body>
@@ -32,7 +38,22 @@
     <div class="contents">
 
         <div class="title">
-            <img class="title_img" src="titleImg.jpg" / alt="title image">
+            <img class="title_img" src="images/others/o4.jpg" / alt="title image">
+            <!--<div class = "title_img">-->
+            <!--    <div class="fotorama" data-autoplay="3000">-->
+            <!--    <img class="title_img" src="images/others/o4.jpg" / alt="title image">-->
+            <!--    <img src = "images/kitchen/k9.jpg" alt="kitchen" class="article-img">-->
+            <!--    <img src = "images/decorative/d1.jpg" alt="decorative" class="article-img">-->
+            <!--    <img src = "images/others/o1.jpg" alt="others" class="article-img">-->
+            <!--    <img src = "images/others/o2.jpg" alt="others" class="article-img">-->
+            <!--    <img src = "images/others/o4.jpg" alt="others" class="article-img">-->
+            <!--    <img src = "images/others/o7.jpg" alt="others" class="article-img">-->
+            <!--    <img src = "images/decorative/d4.jpg" alt="decorative" class="article-img">-->
+            <!--    <img src = "images/decorative/d3.jpg" alt="decorative" class="article-img">-->
+            <!--    <img src = "images/decorative/d5.jpg" alt="decorative" class="article-img">-->
+            <!--</div>-->
+            
+            
             <p class="basic_info">
                 texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext
                 texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext
@@ -41,17 +62,15 @@
         <div class="articles">
             <ul class = "articlelist">
                 <li>
-                    article1
+                    <img src = "images/kitchen/k9.jpg" alt="kitchen" class="article-img">
                 </li>
                 <li>
-                    article1
+                    <img src = "images/decorative/d1.jpg" alt="decorative" class="article-img">
                 </li>
                 <li>
-                    article1
+                    <img src = "images/others/o1.jpg" alt="others" class="article-img">
                 </li>
-                <!--<li>-->
-                <!--    article1-->
-                <!--</li>-->
+                
             </ul>
         </div>
     </div>
@@ -60,7 +79,10 @@
     <footer>
         <div class="social">
             <!--<a class="facebook" hrf="">-->
+            <a href = "https://www.facebook.com/newaartceramics/">
                 <img src = "images/facebook.png" class = "logo_scl">
+            </a>
+                
             <!--</a>-->
             <!--<a class="instagram" hrf="" class="logo">-->
                 <img src = "images/instagram.png" class = "logo_scl">
