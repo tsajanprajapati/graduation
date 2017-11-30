@@ -32,33 +32,34 @@
     <!--<h1>contact us</h1>-->
     <img src = "images/contact_banner.jpg" class = "contact-banner">
 
-    <!--<div class="contents">-->
-
-    <!--    <div class="title">-->
-    <!--        <img class="title_img" src="titleImg.jpg" / alt="title image">-->
-    <!--        <p class="basic_info">-->
-    <!--            texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext-->
-    <!--            texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext-->
-    <!--        </p>-->
-    <!--    </div>-->
-    <!--    <div class="articles">-->
-    <!--        <ul class = "articlelist">-->
-    <!--            <li>-->
-    <!--                article1-->
-    <!--            </li>-->
-    <!--            <li>-->
-    <!--                article1-->
-    <!--            </li>-->
-    <!--            <li>-->
-    <!--                article1-->
-    <!--            </li>-->
-                <!--<li>-->
-                <!--    article1-->
-                <!--</li>-->
-    <!--        </ul>-->
-    <!--    </div>-->
-    <!--</div>-->
-
+ 
+    <form action="http://kyushueisu-2017.big-bad.info/test_mail" method="post" class="contact_form">
+        <p>
+            <label>
+                Name:<br />
+                <input type = text name = "name" />
+            </label>
+        </p>
+        <p>
+            <label>
+                Email:<br />
+                <input type = text name = "email" />
+            </label>
+        </p>
+        <p>
+            <label>
+                Subject:<br />
+                <input type = text name = "subject" /> <br>
+            </label>
+            <label>
+                Message:<br />
+                <textarea name = "body"></textarea><br>
+            </label>
+        </p>
+        <input type="hidden" name="return_url" value="https://graduation-tsajan.c9users.io/contact.html"/>
+        <input type="hidden" name="manager_email" value="tsajan.prajapati@gmail.com"/>
+        <input type = submit name ="SubmitBtn" value = "Send">
+    </form>
 
     <footer>
         <div class="social">
@@ -75,6 +76,8 @@
                 <img src = "images/twitter.png" class = "logo_scl">
             <!--</a>-->
         </div>
+        
+        
         <p class="footer_copyright">© Copyright xxxxxxxxxxx. All rights reserved.</p>
     </footer>
 </body>

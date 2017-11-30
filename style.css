@@ -178,3 +178,7 @@ th, td {
 .articles img:hover { 
     filter: brightness(50%);
 }
+
+.contact_form {
+    float: right;
+}
