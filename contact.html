@@ -33,33 +33,61 @@
     <img src = "images/contact_banner.jpg" class = "contact-banner">
 
  
-    <form action="http://kyushueisu-2017.big-bad.info/test_mail" method="post" class="contact_form">
-        <p>
-            <label>
-                Name:<br />
-                <input type = text name = "name" />
-            </label>
-        </p>
-        <p>
-            <label>
-                Email:<br />
-                <input type = text name = "email" />
-            </label>
-        </p>
-        <p>
-            <label>
-                Subject:<br />
-                <input type = text name = "subject" /> <br>
-            </label>
-            <label>
-                Message:<br />
-                <textarea name = "body"></textarea><br>
-            </label>
-        </p>
-        <input type="hidden" name="return_url" value="https://graduation-tsajan.c9users.io/contact.html"/>
-        <input type="hidden" name="manager_email" value="tsajan.prajapati@gmail.com"/>
-        <input type = submit name ="SubmitBtn" value = "Send">
-    </form>
+    <!--<form action="http://kyushueisu-2017.big-bad.info/test_mail" method="post" class="contact_form">-->
+    <!--    <p>-->
+    <!--        <label>-->
+    <!--            Name:<br />-->
+    <!--            <input type = text name = "name" />-->
+    <!--        </label>-->
+    <!--    </p>-->
+    <!--    <p>-->
+    <!--        <label>-->
+    <!--            Email:<br />-->
+    <!--            <input type = text name = "email" />-->
+    <!--        </label>-->
+    <!--    </p>-->
+    <!--    <p>-->
+    <!--        <label>-->
+    <!--            Subject:<br />-->
+    <!--            <input type = text name = "subject" /> <br>-->
+    <!--        </label>-->
+    <!--    </p>-->
+    <!--    <p>-->
+    <!--        <label>-->
+    <!--            Message:<br />-->
+    <!--            <textarea name = "body"></textarea><br>-->
+    <!--        </label>-->
+    <!--    </p>-->
+    <!--    <input type="hidden" name="return_url" value="https://graduation-tsajan.c9users.io/contact.html"/>-->
+    <!--    <input type="hidden" name="manager_email" value="tsajan.prajapati@gmail.com"/>-->
+    <!--    <input type = submit name ="SubmitBtn" value = "Send">-->
+    <!--</form>-->
+    <div class="container">  
+        <form id="contact" action="http://kyushueisu-2017.big-bad.info/test_mail" method="post" method="post">
+            <h3>Quick Contact</h3>
+            <h4>Please send us your querries and comments.</h4>
+            <fieldset>
+                <input placeholder="Your name" type="text" name = "name" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Email Address" type="email" name = "email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Subject" type="text" name = "subject" tabindex="4" required>
+            </fieldset>
+            <fieldset>
+                <textarea placeholder="Type your Message Here...." tabindex="5" required name = "body"></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+        </form>
+ 
+  
+    </div>
 
     <footer>
         <div class="social">
