@@ -6,60 +6,68 @@
     <title>Top | Graduation</title>
     <link rel="stylesheet" href="style.css">
     <!-- 1. Link to jQuery (1.8 or later), -->
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> <!-- 33 KB -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- 33 KB -->
 
-        <!-- fotorama.css & fotorama.js. -->
-        <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+    <!-- fotorama.css & fotorama.js. -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <!-- 3 KB -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <!-- 16 KB -->
 </head>
 
 <body>
     <header>
-        <img src = "images/logo.png" class="logo" src="" alt="logo" />
-        <img src = "images/banner.png" class="logo_theme" src="" alt="logo_theme" />
-        <nav class = "navi">
+        <img src="images/logo.png" class="logo" src="" alt="logo" />
+        <img src="images/banner.png" class="logo_theme" src="" alt="logo_theme" />
+        <nav class="navi">
             <ul>
                 <li>
-                    <a href = "index.html"><img src = "images/button_home (1).png"></a>
+                    <a href="index.html"><img src = "images/button_home (1).png"></a>
                 </li>
                 <li>
-                    <a href = "about.html"> <img src = "images/button_about-us.png"> </a>
+                    <a href="about.html"> <img src = "images/button_about-us.png"></a>
                 </li>
                 <li>
-                    <a href = "programs.html"><img src = "images/button_our-programs.png"></a>
+                    <a href="gallery.html"><img src = "images/button_gallery.png"></a>
                 </li>
                 <li>
-                    <a href = "contact.html"><img src = "images/button_contact-us.png"></a>
+                    <a href="contact.html"><img src = "images/button_contact-us.png"></a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <div class="contents">
-
         <div class="title">
             <img class="title_img" src="images/others/o4.jpg" / alt="title image">
-            
-            
-            <div class = "basic_info">
+            <div class="basic_info">
                 <p class="">
                     We manufacture wholesale and export, glazed and teracotta ceramics pots, decorative items, crokeries and many more with traditional Newari designs.
                 </p>
             </div>
-            
+
         </div>
         <div class="articles">
-            <ul class = "articlelist">
-                <li>
-                    <img src = "images/kitchen/k9.jpg" alt="kitchen" class="article-img">
-                </li>
-                <li>
-                    <img src = "images/decorative/d1.jpg" alt="decorative" class="article-img">
-                </li>
-                <li>
-                    <img src = "images/others/o1.jpg" alt="others" class="article-img">
-                </li>
-                
+            <ul class="articlelist">
+                <a href="gallery.html#kitchen" class="aArticle">
+                    <li>
+                        <div class="category">Kitchen Items</div>
+                        <img src="images/kitchen/k9.jpg" alt="kitchen" class="article-img">
+                    </li>
+                </a>
+                <a href="gallery.html#decor" class="aArticle">
+                    <li>
+                        <img src="images/decorative/d1.jpg" alt="decorative" class="article-img">
+                        <div class="category">Decorative Items</div>
+                    </li>
+                </a>
+                <a href="gallery.html#others" class="aArticle">
+                    <li>
+                        <img src="images/others/o1.jpg" alt="others" class="article-img">
+                        <div class="category">Other Items</div>
+                    </li>
+                </a>
             </ul>
         </div>
     </div>
@@ -68,16 +76,14 @@
     <footer>
         <div class="social">
             <!--<a class="facebook" hrf="">-->
-            <a href = "https://www.facebook.com/newaartceramics/">
-                <img src = "images/facebook.png" class = "logo_scl">
-            </a>
-                
+            <a href="https://www.facebook.com/newaartceramics/" target="_blank"><img src = "images/facebook.png" class = "logo_scl"></a>
+
             <!--</a>-->
             <!--<a class="instagram" hrf="" class="logo">-->
-                <img src = "images/instagram.png" class = "logo_scl">
+            <img src="images/instagram.png" class="logo_scl">
             <!--</a>-->
             <!--<a class="twitter" hrf="">-->
-                <img src = "images/twitter.png" class = "logo_scl">
+            <img src="images/twitter.png" class="logo_scl">
             <!--</a>-->
         </div>
         <p class="footer_copyright">© Copyright Newa Art Ceramics. All rights reserved.</p>
