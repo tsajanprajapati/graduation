@@ -3,7 +3,7 @@ body {
     /*font-family: 'メイリオ',*/
     /*'Hiragino Kaku Gothic Pro',*/
     /*sans-serif;*/
-    font-family: "HG行書体", Times, serif;
+    font-family: "HG行書体", Times, sans-serif;
     background-color: #a38570;
     margin: auto;
     color: #edf1f2;
@@ -25,6 +25,9 @@ header{
     margin-top: 50px;
 }
 
+nav {
+    margin-top: 15px;
+}
 
 nav li {
     display: inline;
@@ -32,6 +35,17 @@ nav li {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.language {
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+.language li{
+    display: inline;
+}
+
 
 .logo {
     width:200px;
@@ -60,7 +74,6 @@ nav li {
     /*position: absolute;*/
     /*top:0px; */
     word-break:break-word;
-    
     width: 345px;
     height: 336px;
     border: solid 1px;
@@ -71,10 +84,21 @@ nav li {
     background-color: #8e725e;
     font-size: 31px;
     text-align: center;
-    font-style: italic;
+    
     font-weight: bold;
+    /*vertical-align: middle;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.para {
+    
+    text-align: center;
     
 }
+
 
 .about-info {
     word-break:break-all;
@@ -87,6 +111,7 @@ nav li {
     padding: 1px;
     background-color: #8e725e;
 }
+
 
 
 .articles {
@@ -183,8 +208,10 @@ h1 {
 table{
    border: 1px solid #8e725e;;
    font-size: 28px;
-  
+}
 
+table th {
+    width:20%
 }
 
 th {
@@ -345,13 +372,27 @@ fieldset {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    
 }
 
 .gallery-table {
     margin-left:auto;
     margin-right:auto;
     margin-bottom: 30px;
+    table-layout: fixed;
+    width: 1000px;
 }
+
+.gallery-table td{
+    max-height: 200px;
+    table-layout: fixed;
+    /*overflow-x: hidden;*/
+    text-align: center;
+}
+
+/*.gallery-table  td > img{*/
+/*    overflow: hidden;*/
+/*}*/
 
 #gallery-title{
     margin: 20px;
