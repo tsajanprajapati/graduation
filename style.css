@@ -87,6 +87,8 @@ nav li {
     margin-top: 0px;
     margin-left: 9px;
     border-radius: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
     
 }
 
@@ -110,7 +112,9 @@ nav li {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 .para {
