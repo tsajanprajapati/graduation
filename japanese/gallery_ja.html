@@ -4,7 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Gallery | Graduation</title>
+    <script src="../jquery-3.2.1.min.js"></script>
+    <link href="../lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+    <script src="../lightbox2-master/dist/js/lightbox.js"></script>
     <link rel="stylesheet" href="../style.css">
+    <script>
+    'use strict';
+
+    $(function(){
+        $("td img").each(function() {
+            // <a href="images/kitchen/k1.jpg" data-lightbox="image-1" data-title="My caption">
+            // var id = $(this).attr("id");
+            var path = $(this).attr("src");
+            var $tag = $("<a>", { "href": path, "data-lightbox": "image"});
+            $(this).wrap($tag);
+            // compare id to what you want
+        });
+    });
+    </script>
 </head>
 
 <body>
