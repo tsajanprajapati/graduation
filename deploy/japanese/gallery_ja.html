@@ -4,23 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Gallery | Graduation</title>
+    <meta name="keywords" content="ネワー,ネワーリ,粘土鍋,装飾品,キッチン用品,伝統的なデザイン,セラミックス,ガラス製品,ネパールの製品,手作りのセラミックス,粘土芸術,粘土彫刻">
+
     <script src="../jquery-3.2.1.min.js"></script>
     <link href="../lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
     <script src="../lightbox2-master/dist/js/lightbox.js"></script>
     <link rel="stylesheet" href="../style.css">
     <script>
-    'use strict';
+        'use strict';
 
-    $(function(){
-        $("td img").each(function() {
-            // <a href="images/kitchen/k1.jpg" data-lightbox="image-1" data-title="My caption">
-            // var id = $(this).attr("id");
-            var path = $(this).attr("src");
-            var $tag = $("<a>", { "href": path, "data-lightbox": "image"});
-            $(this).wrap($tag);
-            // compare id to what you want
+        $(function() {
+            $("td img").each(function() {
+                // <a href="images/kitchen/k1.jpg" data-lightbox="image-1" data-title="My caption">
+                // var id = $(this).attr("id");
+                var path = $(this).attr("src");
+                var $tag = $("<a>", { "href": path, "data-lightbox": "image" });
+                $(this).wrap($tag);
+                // compare id to what you want
+            });
         });
-    });
     </script>
 </head>
 
@@ -77,8 +79,8 @@
             <td><img src="../images/kitchen/k9.jpg" alt="kitchen"></td>
         </tr>
         <tr>
-            <td colspan = 3><img src="../images/kitchen/k10.jpg" alt="kitchen"></td>
-            
+            <td colspan=3><img src="../images/kitchen/k10.jpg" alt="kitchen"></td>
+
         </tr>
 
 
